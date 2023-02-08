@@ -1,11 +1,15 @@
 
 .panel {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     width: 66%;
     gap: 1em;
+    margin: 0 auto;
+    border: 1px solid red;
 }
 
 .panel > * {
-    flex: 0 1 45%;
+    flex: 0 1 49%;
 }
