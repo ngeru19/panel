@@ -1,0 +1,30 @@
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    border: 1px solid #ffffff;
+    padding: 1em;
+    box-shadow: 0px 0px .75rem .1rem rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.card:hover {
+    border: 1px solid #208AD9;
+}
+
+.card__logo {
+    width: 2.5em;
+}
+
+.card__buttons {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__button {
+    width: 1.5em;
+}

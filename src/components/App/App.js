@@ -1,11 +1,11 @@
 import './App.css';
-import Card from '../Card/Card';
+import Panel from '../Panel/Panel';
 
 function App() {
   return (
     <div className="App">
-      Hello World!
-      <Card />
+      <h2 className="app__header">Мои организации</h2>
+      <Panel />
     </div>
   );
 }
